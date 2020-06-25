@@ -1,2 +1,37 @@
 ﻿  Source.cpp
+C:\Users\User\Documents\1. Study\20T2\GAD173\20T2GAD173\BreakoutClone\BreakoutClone\Source.cpp(25,22): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\User\Documents\1. Study\20T2\GAD173\20T2GAD173\BreakoutClone\BreakoutClone\Source.cpp(36,27): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\User\Documents\1. Study\20T2\GAD173\20T2GAD173\BreakoutClone\BreakoutClone\Source.cpp(39,30): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\User\Documents\1. Study\20T2\GAD173\20T2GAD173\BreakoutClone\BreakoutClone\Source.cpp(40,45): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\User\Documents\1. Study\20T2\GAD173\20T2GAD173\BreakoutClone\BreakoutClone\Source.cpp(42,28): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\User\Documents\1. Study\20T2\GAD173\20T2GAD173\BreakoutClone\BreakoutClone\Source.cpp(45,29): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\User\Documents\1. Study\20T2\GAD173\20T2GAD173\BreakoutClone\BreakoutClone\Source.cpp(46,41): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
   BreakoutClone.vcxproj -> C:\Users\User\Documents\1. Study\20T2\GAD173\20T2GAD173\BreakoutClone\Debug\BreakoutClone.exe

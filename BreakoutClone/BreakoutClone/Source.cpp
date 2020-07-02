@@ -20,7 +20,7 @@ bool Game::Start() //only happens on start
 	//load the sound buffers from header and pull our audio files
 	paddleSB.loadFromFile("SFX/paddlebounce.wav");
 	wallSB.loadFromFile("SFX/wallbounce.wav");
-	brickSB.loadFromFile("SFX/brickbounce.wav");
+	brickSB.loadFromFile("SFX/blockbounce.wav");
 	//load font from the header file
 	font.loadFromFile("arial.ttf");
 	//setting all our text up for lives and score

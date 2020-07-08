@@ -99,10 +99,8 @@ int Game::Update() //updates every frame
 		{
 			paddle.pShape.setPosition(sf::Mouse::getPosition(window).x - paddle.pShape.getSize().x / 2, paddle.pShape.getPosition().y);
 		}
-
 		//move ball
 		ball.ballShape.move(ball.ballVelocity);
-
 		if (top.getGlobalBounds().intersects(ball.ballShape.getGlobalBounds())) 
 		{
 			//did we hit the top?
@@ -150,7 +148,7 @@ int Game::Update() //updates every frame
 				score += 1;
 				//original code has too drastic increase
 				//ball.ballVelocity = ball.ballVelocity * 1.03f;
-				//New code to decrease gradual speed increase
+				//New code to decrease gradual speed increase to stop the ball breaking boundarys
 				ball.ballVelocity = ball.ballVelocity * 1.005f;
 				if (score == 30)
 				{

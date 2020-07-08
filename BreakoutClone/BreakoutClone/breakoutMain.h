@@ -2,7 +2,6 @@
 #include <SFML/Graphics.hpp>
 #include <SFML/Audio.hpp>
 #include <iostream>
-
 class Brick
 {
 public:
@@ -11,7 +10,6 @@ public:
 	sf::Vector2f bSize;
 	sf::Vector2f bPos;
 };
-
 class Ball 
 {
 //public to  use on other sheets
@@ -51,7 +49,6 @@ public:
 	sf::Vector2f ballVelocity;
 	float ballRadius = 10.f;
 };
-
 class Paddle
 {
 //public to  use on other sheets
@@ -67,7 +64,6 @@ public:
 	sf::Vector2f pSize;
 	sf::Color pColour;
 };
-
 class Game
 {
 //public to  use on other sheets
